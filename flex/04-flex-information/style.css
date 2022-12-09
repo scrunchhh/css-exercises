@@ -7,9 +7,28 @@ img {
   height: 100px;
 }
 
+.images img{
+  display: flex;
+  justify-content: space-around;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info {
+  max-width: 200px;
 }
 
 /* do not edit this footer */

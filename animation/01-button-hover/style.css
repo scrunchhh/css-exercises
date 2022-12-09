@@ -16,4 +16,15 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: 0.5s;
+}
+
+button:hover {
+  border-radius: 12px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 22px;
+  padding: 20px 28px;
+  text-align: center;
 }
